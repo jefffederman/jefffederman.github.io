@@ -1,129 +1,145 @@
-<style type="text/css">
-  body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #333; }
-  h1, h2 { font-weight: 400; color: #E16B35; }
-  a { color: navy; }
-  address, h3 { text-transform: uppercase; font-size: 90%; }
-  address > a { text-transform: lowercase; }
-  ul { padding-left: 20px; }
-  .wrapper { width: 1240px; margin: 0px auto; }
-  .resume { width: 680px; margin: 30px 0; float: left; }
-  .circular {
-    width: 250px; height: 250px; float: left;
-    margin: 55px 30px 0;
-    border-radius: 125px;
-    background: url(images/claude_jeff_250x250.jpg) no-repeat;
-  }
-  @media (max-width: 960px) {
-    .wrapper, .resume { width: 100%; }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jeff Federman</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <style type="text/css">
+    body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #333; }
+    h1, h2 { font-weight: 400; color: #E16B35; }
+    a { color: navy; }
+    address, h3 { text-transform: uppercase; font-size: 90%; }
+    address > a { text-transform: lowercase; }
+    ul { padding-left: 20px; }
+    .wrapper { width: 1240px; margin: 0px auto; }
+    .resume { width: 680px; margin: 30px 0; float: left; }
     .circular {
-      width: 130px; height: 130px;
-      position: absolute; right: 10px; margin: 55px 0 0 0;
-      background: url(images/claude_jeff_130x130.jpg) no-repeat;
-      border-radius: 65px;
+      width: 250px; height: 250px; float: left;
+      margin: 55px 30px 0;
+      border-radius: 125px;
+      background: url(images/claude_jeff_250x250.jpg) no-repeat;
     }
-  }
-</style>
+    @media (max-width: 960px) {
+      .wrapper, .resume { width: 100%; }
+      .circular {
+        width: 130px; height: 130px;
+        position: absolute; right: 10px; margin: 55px 0 0 0;
+        background: url(images/claude_jeff_130x130.jpg) no-repeat;
+        border-radius: 65px;
+      }
+    }
+    @media (max-width: 350px) {
+      .circular {
+        width: 80px; height: 80px;
+        background: url(images/claude_jeff_80x80.jpg) no-repeat;
+        border-radius: 40px;
+      }
+    }
+  </style>
 
-<div class="wrapper">
-  <div class="circular"></div>
-  <div class="resume">
-    <h1>Jeff Federman</h1>
-    <address>
-    80 East End Ave, Apt 3A<br>
-    New York, NY 10028<br>
-    TEL 347 546 5659<br>
-    <a href="mailto:jefffederman@gmail.com">jefffederman@gmail.com</a>
-    </address>
+  <div class="wrapper">
+    <div class="circular"></div>
+    <div class="resume">
+      <h1>Jeff Federman</h1>
+      <address>
+      80 East End Ave, Apt 3A<br>
+      New York, NY 10028<br>
+      TEL 347 546 5659<br>
+      <a href="mailto:jefffederman@gmail.com">jefffederman@gmail.com</a>
+      </address>
 
-    <h2>Profile</h2>
+      <h2>Profile</h2>
 
-    <p>I’m a passionate full-stack software developer looking for a challenging web development position at a company with a culture of continuous learning, where software development is central to the company’s core business. I’ve been part of agile teams for the past two years and I value practices such as pair programming, test-driven development, and continuous deployment.</p>
-    <p>I’m most proficient with Ruby, JavaScript and HTML/CSS, but I relish learning new languages and technologies–Python, iOS, Elixir, Go and web components are some recent examples.</p>
+      <p>I’m a passionate full-stack software developer looking for a challenging web development position at a company with a culture of continuous learning, where software development is central to the company’s core business. I’ve been part of agile teams for the past two years and I value practices such as pair programming, test-driven development, and continuous deployment.</p>
+      <p>I’m most proficient with Ruby, JavaScript and HTML/CSS, but I relish learning new languages and technologies–Python, iOS, Elixir, Go and web components are some recent examples.</p>
 
-    <h2>Professional Experience</h2>
+      <h2>Professional Experience</h2>
 
-    <h3>Freelance Developer, <a href="http://muckrack.com">Muckrack</a>, New York, NY January 2015-now</h3>
-    <p>Develop features for Python/Django SaaS for media professionals. Recent stories include:</p>
-    <ul>
-      <li>Integrating the Compete API to provide journalists and publicists with more information about the domains where their articles appear, e.g., unique visitors</li>
-    </ul>
+      <h3>Freelance Developer, <a href="http://muckrack.com">Muckrack</a>, New York, NY January 2015-now</h3>
+      <p>Develop features for Python/Django SaaS for media professionals. Recent stories include:</p>
+      <ul>
+        <li>Integrating the Compete API to provide journalists and publicists with more information about the domains where their articles appear, e.g., unique visitors</li>
+      </ul>
 
-    <h3>Software Engineer, <a href="http://www.fundinggates.com">Funding Gates</a>, New York, NY July 2014-January 2015</h3>
-    <p>Developed and maintained the #1 rated app for small business accounts receivables in the Intuit Quickbooks App Store. Pair programmed leveraging remote communication tools such as Screenhero, Slack and Google Hangouts. Stories included:</p>
-    <ul>
-      <li>Extracting Ember.js front-end from Rails into self-contained Ember-CLI repository</li>
-      <li>Adding ability for customers to make phone calls from within the app via the Twilio API</li>
-      <li>Migrating customer and subscription plan data/code from Chargify to Stripe</li>
-    </ul>
+      <h3>Software Engineer, <a href="http://www.fundinggates.com">Funding Gates</a>, New York, NY July 2014-January 2015</h3>
+      <p>Developed and maintained the #1 rated app for small business accounts receivables in the Intuit Quickbooks App Store. Pair programmed leveraging remote communication tools such as Screenhero, Slack and Google Hangouts. Stories included:</p>
+      <ul>
+        <li>Extracting Ember.js front-end from Rails into self-contained Ember-CLI repository</li>
+        <li>Adding ability for customers to make phone calls from within the app via the Twilio API</li>
+        <li>Migrating customer and subscription plan data/code from Chargify to Stripe</li>
+      </ul>
 
-    <h3>Software Developer, <a href="http://www.simonandschuster.com">Simon & Schuster</a>, New York, NY November 2012-July 2014</h3>
-    <p>Created, maintained and deployed websites and other consumer digital products for Simon & Schuster, a leading English language trade publisher. Pair-programmed and used test-driven development as part of a Scrum/Agile/XP team on a weekly iteration cycle. Collaborated closely with product team and company executives on new features. Stories included:</p>
+      <h3>Software Developer, <a href="http://www.simonandschuster.com">Simon & Schuster</a>, New York, NY November 2012-July 2014</h3>
+      <p>Created, maintained and deployed websites and other consumer digital products for Simon & Schuster, a leading English language trade publisher. Pair-programmed and used test-driven development as part of a Scrum/Agile/XP team on a weekly iteration cycle. Collaborated closely with product team and company executives on new features. Stories included:</p>
 
-    <ul>
-      <li>Migrating the Simon & Schuster and Pimsleur (language learning) sites from desktop only designs to responsive designs</li>
-      <li>Updating a five year old codebase initially built on Rails 2 and Ruby 1.8 to Rails 3 and Ruby 1.9</li>
-      <li>Modifying our site’s book and author data ingestion to include ONIX XML feeds alongside our proprietary feeds</li>
-      <li>Updating our codebase and search platform (Endeca) to better accommodate both individual books and aggregate works</li>
-    </ul>
+      <ul>
+        <li>Migrating the Simon & Schuster and Pimsleur (language learning) sites from desktop only designs to responsive designs</li>
+        <li>Updating a five year old codebase initially built on Rails 2 and Ruby 1.8 to Rails 3 and Ruby 1.9</li>
+        <li>Modifying our site’s book and author data ingestion to include ONIX XML feeds alongside our proprietary feeds</li>
+        <li>Updating our codebase and search platform (Endeca) to better accommodate both individual books and aggregate works</li>
+      </ul>
 
-    <h3>Partner/Developer, <a href="http://www.puffycoat.org">Puffy Coat</a>, Brooklyn, NY February 2010-November 2012</h3>
-    <p>Developed marketing sites for commercial clients, most notably Estée Lauder. Examples include:</p>
-    <ul>
-      <li><a href="http://www.duedatepool.com">Due Date Pool</a></li>
-      <li><a href="http://www.esteelauder.co.kr/media/boutiques/purecolor/lipstick.tmpl">Estée Lauder Pure Color Lipstick</a></li>
-      <li><a href="http://www.esteelauder.co.kr/media/boutiques/purecolor/eyes.tmpl">Estée Lauder Pure Color Eyeshadow</a></li>
-      <li><a href="http://www.encoreclinical.org">Encore Clinical</a></li>
-      <li><a href="http://www.yantraway.com">Yantraway</a></li>
-      <li><a href="http://www.justineheilner.com">Justine Heilner Landscape</a></li>
-    </ul>
+      <h3>Partner/Developer, <a href="http://www.puffycoat.org">Puffy Coat</a>, Brooklyn, NY February 2010-November 2012</h3>
+      <p>Developed marketing sites for commercial clients, most notably Estée Lauder. Examples include:</p>
+      <ul>
+        <li><a href="http://www.duedatepool.com">Due Date Pool</a></li>
+        <li><a href="http://www.esteelauder.co.kr/media/boutiques/purecolor/lipstick.tmpl">Estée Lauder Pure Color Lipstick</a></li>
+        <li><a href="http://www.esteelauder.co.kr/media/boutiques/purecolor/eyes.tmpl">Estée Lauder Pure Color Eyeshadow</a></li>
+        <li><a href="http://www.encoreclinical.org">Encore Clinical</a></li>
+        <li><a href="http://www.yantraway.com">Yantraway</a></li>
+        <li><a href="http://www.justineheilner.com">Justine Heilner Landscape</a></li>
+      </ul>
 
-    <h3>Freelance Developer, <a href="http://sawhorsemedia.com">Sawhorse Media</a>, Brooklyn, NY July 2009-July 2010</h3>
-    <p>Server-side and client-side development (along with some system administration) for numerous sites leveraging the Twitter ecosystem, including <a href="http://shortyawards.com">The Shorty Awards</a> and <a href="http://muckrack.com">Muckrack</a>.</p>
+      <h3>Freelance Developer, <a href="http://sawhorsemedia.com">Sawhorse Media</a>, Brooklyn, NY July 2009-July 2010</h3>
+      <p>Server-side and client-side development (along with some system administration) for numerous sites leveraging the Twitter ecosystem, including <a href="http://shortyawards.com">The Shorty Awards</a> and <a href="http://muckrack.com">Muckrack</a>.</p>
 
-    <h2>Education</h2>
-    <p>New York University School of Law, New York, NY — JD, 2001<br/>
-    Vassar College, Poughkeepsie, NY – BA in Music, 1993</p>
+      <h2>Education</h2>
+      <p>New York University School of Law, New York, NY — JD, 2001<br/>
+      Vassar College, Poughkeepsie, NY – BA in Music, 1993</p>
 
-    <h2>Skills</h2>
-    <p>Languages: Ruby, JavaScript/CoffeeScript, Python, Objective-C<br/>
-    Frameworks/Libraries: Ruby on Rails, Sinatra, jQuery, Django, Ember.js, Backbone.js, RSpec, Capybara, iOS<br/>
-    Datastores/Search: PostgreSQL, MySQL, Endeca, Redis<br/>
-    Front-end Tools: SASS, Compass, Typekit, Cufon, Raphael.js<br/>
+      <h2>Skills</h2>
+      <p>Languages: Ruby, JavaScript/CoffeeScript, Python, Objective-C<br/>
+      Frameworks/Libraries: Ruby on Rails, Sinatra, jQuery, Django, Ember.js, Backbone.js, RSpec, Capybara, iOS<br/>
+      Datastores/Search: PostgreSQL, MySQL, Endeca, Redis<br/>
+      Front-end Tools: SASS, Compass, Typekit, Cufon, Raphael.js<br/>
 
-    <h2>Other Professional Experience</h2>
-    <h3>Litigation Associate, Hughes Hubbard & Reed, New York, NY October 2001-May 2008</h3>
-    <p>eDiscovery specialist directly advising client executives and representatives in major pharmaceutical, manufacturing and financial services companies as to all areas of electronic document management, including:</p>
-    <ul>
-      <li>Document retention policies</li>
-      <li>Litigation holds</li>
-      <li>Compliance with eDiscovery provisions in revised Federal Rules of Civil Procedure</li>
-      <li>Electronic document collection and processing</li>
-      <li>Paper document collection, scanning, imaging and coding</li>
-      <li>Review and production on software review platforms (e.g., Ringtail, iConect, Summation, Concordance)</li>
-    </ul>
-    <p>Matters included:</p>
-    <ul>
-      <li>Supervising all aspects of electronic discovery for one of the largest pharmaceutical products liability cases in U.S. history</li>
-      <li>Coordinating forensic data collection in an accounting fraud investigation</li>
-      <li>Advising global industrial client as to backup tape preservation obligations in the event of regulatory inquiry</li>
-      <li>Advising NYC art museum in revising email and electronic document retention policy</li>
-    </ul>
-    <p>Honors: inMotion Commitment to Justice Award, 2005 (pro bono domestic abuse/divorce case)</p>
+      <h2>Other Professional Experience</h2>
+      <h3>Litigation Associate, Hughes Hubbard & Reed, New York, NY October 2001-May 2008</h3>
+      <p>eDiscovery specialist directly advising client executives and representatives in major pharmaceutical, manufacturing and financial services companies as to all areas of electronic document management, including:</p>
+      <ul>
+        <li>Document retention policies</li>
+        <li>Litigation holds</li>
+        <li>Compliance with eDiscovery provisions in revised Federal Rules of Civil Procedure</li>
+        <li>Electronic document collection and processing</li>
+        <li>Paper document collection, scanning, imaging and coding</li>
+        <li>Review and production on software review platforms (e.g., Ringtail, iConect, Summation, Concordance)</li>
+      </ul>
+      <p>Matters included:</p>
+      <ul>
+        <li>Supervising all aspects of electronic discovery for one of the largest pharmaceutical products liability cases in U.S. history</li>
+        <li>Coordinating forensic data collection in an accounting fraud investigation</li>
+        <li>Advising global industrial client as to backup tape preservation obligations in the event of regulatory inquiry</li>
+        <li>Advising NYC art museum in revising email and electronic document retention policy</li>
+      </ul>
+      <p>Honors: inMotion Commitment to Justice Award, 2005 (pro bono domestic abuse/divorce case)</p>
 
-    <h3>Partner/Producer/Engineer, Fortunato Productions, Brooklyn, NY June 1993-August 1998</h3>
-    <p>Dealt with all facets of running a small electronic music production company, including:</p>
-    <ul>
-      <li>Composing and recording music for clients in film, advertising, modern dance and urban music</li>
-      <li>Evaluating talent</li>
-      <li>Negotiating publishing and sampling contracts</li>
-      <li>Filing copyrights</li>
-      <li>Maintaining insurance coverage</li>
-    </ul>
-    <p>Supplemented income with employment at major recording and music publishing companies (BMG Music, Polygram Music Publishing, EMI Records)</p>
+      <h3>Partner/Producer/Engineer, Fortunato Productions, Brooklyn, NY June 1993-August 1998</h3>
+      <p>Dealt with all facets of running a small electronic music production company, including:</p>
+      <ul>
+        <li>Composing and recording music for clients in film, advertising, modern dance and urban music</li>
+        <li>Evaluating talent</li>
+        <li>Negotiating publishing and sampling contracts</li>
+        <li>Filing copyrights</li>
+        <li>Maintaining insurance coverage</li>
+      </ul>
+      <p>Supplemented income with employment at major recording and music publishing companies (BMG Music, Polygram Music Publishing, EMI Records)</p>
 
-    <h2>Professional Affiliations</h2>
-    <p>Admitted to New York State Bar<br/>
-    Songwriter/Publisher, BMI</p>
+      <h2>Professional Affiliations</h2>
+      <p>Admitted to New York State Bar<br/>
+      Songwriter/Publisher, BMI</p>
+    </div>
   </div>
-
-</div>
+</body>
+</html>
